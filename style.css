@@ -1,3 +1,14 @@
 body {
-    background-color: aqua;
+    background-color: white;
+}
+
+#nav-bar {
+    background-color: rgb(44, 44, 44);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.nav-link {
+    color: white;
 }
