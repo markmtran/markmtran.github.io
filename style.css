@@ -1,14 +1,48 @@
 body {
     background-color: white;
 }
-
+/* Nav Bar Start*/
 #nav-bar {
     background-color: rgb(44, 44, 44);
     position: fixed;
     top: 0px;
     left: 0px;
+    width: 100%;
+    font-family: Staatliches, monospace;
+    display: flex;
+    justify-content: space-between;
 }
 
+#logo {
+    color: white;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+#nav-left {
+    margin-left: 2%;
+}
+#nav-mid {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
 .nav-link {
     color: white;
+}
+
+#nav-right {
+    margin-top: 2%;
+    margin-right: 2%;
+}
+/* Nav Bar End */
+
+
+
+
+
+
+
+.header-text {
+    font-family: Staatliches, monospace;
 }
