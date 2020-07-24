@@ -14,33 +14,42 @@
         </div>
 
         <div id="nav-mid">
-            <a class="nav-link" href="#home">Home</a>
-            <a class="nav-link" href="#about">About Me</a>
-            <a class="nav-link" href="#projects">Projects</a>
-            <a class="nav-link" href="#contact">Contact</a>
+            <div class="button-enlarge">
+                <a class="nav-link" href="#top">Home</a>
+            </div>
+            <div class="button-enlarge">
+                <a class="nav-link" href="#about">About Me</a>
+            </div>
+            <div class="button-enlarge">
+                <a class="nav-link" href="#projects">Projects</a>
+            </div>
+            <div class="button-enlarge">
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
         </div>
 
         <div id="nav-right">
-            <div id="linkedin-icon">
-                <a  href="https://www.linkedin.com/in/mark-tran-0aa70317b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BT3fJFA8IRj2wODugX567FQ%3D%3D" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <div id="linkedin-div" class="button-enlarge">
+                <a id="linkedin-icon" class="icon-color" href="https://www.linkedin.com/in/mark-tran-0aa70317b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BT3fJFA8IRj2wODugX567FQ%3D%3D" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
             </div>
-            <div id="mail-icon">
-                <a href="mailto:marktran@stanford.edu.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+            <div id="github-div" class="button-enlarge">
+                <a id="github-icon" class="icon-color" href="https://github.com/markmtran" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+            </div>
+            <div id="mail-div" class="button-enlarge">
+                <a id="mail-icon" class="icon-color" href="mailto:marktran@stanford.edu.com"><i class="fas fa-envelope-square fa-2x"></i></a>
             </div>
         </div>
     </nav>
 
-
-
-
-
-
-    <div id="top">
-        <h1 class="header-text">Welcome to my site!</h1>
-        <button type="button">Projects</button>
-        <button type="button">Resume</button>
-        <button type="button">Contact Me</button>
+    <div id="greeting">
+        <h1 id="intro" class="header-text">Hi, I'm Mark. Nice to meet you!</h1>
+        <div id="greeting-buttons">
+            <button>Projects</button>
+            <button>Resume</button>
+            <button>Contact Me</button>
+        </div>
     </div>
+
     <div id="about">
         <h2 class="header-text">About Me</h2>
         <p>I am currently a sophomore undergraduate at Stanford University with the intention of majoring in Computer Science and minoring in Economics.</p>
@@ -51,6 +60,10 @@
     <div id="contact">
         <h2 class="header-text">Contact Me!</h2>
     </div>
+
+    <footer id="footer">
+        <p><a id="footer-link" href="#greeting">Back to Top</a></p>
+    </footer>
 </body>
 
 </html>

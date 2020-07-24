@@ -25,14 +25,12 @@ body {
 }
 #nav-mid {
     width: 50%;
-    margin-top: 2%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .nav-link {
     color: white;
-    margin-left: 1%;
-    margin-right: 1%;
 }
 
 #nav-right {
@@ -43,17 +41,63 @@ body {
     align-items: center;
 }
 
-#mail-icon {
-    margin-left: 6%;
+#linkedin-div {
+    margin-right: 4%;
+}
+
+#mail-div {
+    margin-left: 4%;
+    margin-bottom: 1.05%;
+}
+
+.icon-color {
+    color: white !important;
+}
+
+.button-enlarge:hover {
+    transform: scale(1.2);
 }
 /* Nav Bar End */
 
+/* Greeting Start */
+#greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80);
 
-
-
-
-
+}
+#intro {
+    color: rgb(48, 208, 143);
+}
+#greeting-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+/* Greeting End */
 
 .header-text {
     font-family: Staatliches, monospace;
+}
+/* About Me Start */
+/* About Me End */
+
+/* Projects Start */
+/* Projects End */
+
+/* Contact Start */
+/* Contact End */
+
+/* Footer */
+#footer {
+    background-color: rgb(44, 44, 44);
+}
+
+#footer-link {
+    color: white;
+    font-family: Staatliches, monospace;
+    display: flex;
+    justify-content: center;
 }
