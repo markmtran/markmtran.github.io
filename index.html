@@ -4,6 +4,7 @@
     <script src="https://kit.fontawesome.com/d2d7b9c4dd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Hi! I'm Mark</title>
 </head>
 
@@ -18,13 +19,13 @@
                 <a class="nav-link" href="#top">Home</a>
             </div>
             <div class="button-enlarge">
-                <a class="nav-link" href="#about">About Me</a>
+                <a class="nav-link" href="#about-container">About Me</a>
             </div>
             <div class="button-enlarge">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#projects-container">Projects</a>
             </div>
             <div class="button-enlarge">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#contact-container">Contact</a>
             </div>
         </div>
 
@@ -50,19 +51,66 @@
         </div>
     </div>
 
-    <div id="about">
-        <h2 class="header-text">About Me</h2>
-        <p>I am currently a sophomore undergraduate at Stanford University with the intention of majoring in Computer Science and minoring in Economics.</p>
+    <div id="about-container">
+        <div id="about-div">
+            <div id="about-words">
+                <h2 id="about-title" class="header-text">About Me</h2>
+                <p class="about-text">I am currently a sophomore undergraduate at Stanford University with the intention of majoring in Computer Science and minoring in Economics.
+
+                </p>
+            </div>
+            <div id="about-photos">
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQL1wYJejZuVXABT_vSlQJpJQLUpPRSpz3WHmaxRTlcYL3eYjGBno5bUgj-Zdf-_0kzy13vlVHECxMn/embed?start=true&loop=true&delayms=5000" frameborder="0" width="600" height="360" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            </div>
+        </div>
     </div>
-    <div id="projects">
-        <h2 class="header-text">Projects</h2>
+
+    <div id="projects-container">
+        <h2 id="projects-title" class="header-text">Projects</h2>
+        <div id="projects-grid">
+            <a href="#" target=_blank>Project 1</a>
+            <a href="#" target=_blank>Project 2</a>
+            <a href="#" target=_blank>Project 3</a>
+        </div>
     </div>
-    <div id="contact">
-        <h2 class="header-text">Contact Me!</h2>
+
+    <div id="contact-container">
+        <h2 id="contact-title" class="header-text">Contact Me!</h2>
+        <div id="contact-div">
+            <p id="form-desc">Check out my LinkedIn and GitHub, or send me a message here!</p>
+            <form id="contact-form">
+                <div id="form-entries">
+                    <div class="form-struct">
+                        <b><label for="name" id="name-label">Name</label></b>
+                        <input class="form-box" type="text" name="name" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-struct">
+                        <b><label for="email" id="email-label">Email</label></b>
+                        <input class="form-box" type="email" name="email" id="email" placeholder="Enter your Email" required>
+                    </div>
+                    <div class="form-struct">
+                        <b><label for="phone-number" id="phone-label">Phone Number (optional)</label></b>
+                        <input class="form-box" type="tel" name="phone-number" id="phone-number" placeholder="Enter your phone number">
+                    </div>
+                    <div class="form-struct">
+                        <b><label for="subject" id="subject-label">Subject</label></b>
+                        <input class="form-box" type="text" name="subject" id="subject" placeholder="What is your message about?" required>
+                    </div>
+                    <div class="form-struct">
+                        <b><label for="message" id="message-label">Message</label></b>
+                        <textarea class="message-box" name="message" id="message" placeholder="Enter your message..." required></textarea>
+                    </div>
+                    <div class="form-struct">
+                        <button id="submit-btn" type="submit"><b>Submit</b></button>
+                    </div>
+                </div>
+                <i id="email-me">Or, simply email me at <br><a href="mailto:marktran@stanford.edu">marktran@stanford.edu</a>!</i>
+            </form>
+        </div>
     </div>
 
     <footer id="footer">
-        <p><a id="footer-link" href="#greeting">Back to Top</a></p>
+        <p class="button-enlarge"><a id="footer-link" href="#greeting-div">Back to Top</a></p>
     </footer>
 </body>
 
