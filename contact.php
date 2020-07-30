@@ -1,3 +1,15 @@
+<?php
+if($_POST["submit"]) {
+    $name = $_POST["name"]
+    $email = $_POST["email"]
+    $phone = $_POST["phone-number"]
+    $subject = $_POST["subject"]
+    $message = $_POST["message"]
+    mail("marktran@stanford.edu, markmtran1@gmail.com", $subject, $message, "From: $name <$email>", "Phone: $phone");
+    $confirm = "<p>Your message has been sent!</p>"
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -106,6 +118,7 @@
                 </div>
                 <i id="email-me">Or, email me at <br><a href="mailto:marktran@stanford.edu">marktran@stanford.edu</a>!</i>
             </form>
+            <?=$confirm ?>
         </div>
     </div>
 

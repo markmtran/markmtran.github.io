@@ -161,8 +161,6 @@ body {
     font-family: Poppins, monospace;
     margin-left: 4%;
 }
-#about-photos {
-}
 /* About Me End */
 
 /* Projects Start */
@@ -231,6 +229,7 @@ form {
     border: 2px solid;
     border-radius: 3px;
     font-size: 18px;
+    font-family: Poppins, monospace;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -253,6 +252,9 @@ form {
     padding-bottom: 10px;
     background-color: rgb(48, 208, 143);
     cursor: pointer;
+}
+.submit-enlarge:hover {
+    transform: scale(1.04);
 }
 #email-me {
     position: relative;
