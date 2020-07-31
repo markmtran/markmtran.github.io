@@ -1,3 +1,4 @@
+<?php include 'contact.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -78,7 +79,7 @@
         <h2 id="contact-title" class="header-text">Contact Me!</h2>
         <div id="contact-div">
             <p id="form-desc">Check out my LinkedIn and GitHub, or send me a message here!</p>
-            <form id="contact-form" action="https://formspree.io/xnqgwnod" method="POST" name="form">
+            <form id="contact-form" action="<?= $_SERVER['PHP_SELF']; ?>" method="post" name="form">
                 <div id="form-entries">
                     <div class="form-struct">
                         <b><label for="name" id="name-label">Name</label></b>
