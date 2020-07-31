@@ -263,6 +263,7 @@ form {
 
 /* Footer */
 #footer {
+    width: 100vw;
     position: relative;
     padding-left: 8px;
     bottom: 0px;
