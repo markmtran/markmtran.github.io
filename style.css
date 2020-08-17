@@ -1,3 +1,10 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -43,6 +50,7 @@ body {
 .nav-link {
     color: white;
     font-size: 28px;
+    text-decoration: none;
 }
 
 #nav-right {
@@ -73,17 +81,15 @@ body {
 /* Greeting Start */
 #greeting-div {
     position: relative;
-    left: 0px;
-    right: -16px;
-    width: 100vw;
     height: 90vh;
+    width: 100%;
     margin-top: 70px;
     display: flex;
     justify-content: center;    
     align-items: center;
     background: linear-gradient(rgba(0,0,1,.7), rgba(0,0,1,.4)), url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80);
     background-repeat: no-repeat;
-    background-size: 100vw auto;
+    background-size: 100% auto;
     background-position: 50% 20%;
 }
 
@@ -268,20 +274,18 @@ form {
 /* Footer */
 #footer {
     position: relative;
-    right: -16px;
     width: 100vw;
-    position: relative;
     bottom: 0px;
     left: 0px;
     padding: 1px;
     background-color: rgb(44, 44, 44);
 }
-
+#footer-text {
+    text-align: center;
+}
 #footer-link {
     color: white !important;
     font-size: 24px;
     font-family: Staatliches, monospace;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    text-decoration: none;
 }
