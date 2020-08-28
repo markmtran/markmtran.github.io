@@ -30,49 +30,29 @@ nav {
 #nav-right{
     width: 100%;
 }
-/*
-#nav-right {
-    width: 25%;
-    margin-right: 2%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
 
-#greeting-div {
-    position: relative;
+#greeting {
     height: 100vh;
-    width: 100%;
     margin-top: 60px;
-    display: flex;
-    justify-content: center;    
-    align-items: center;
     background: linear-gradient(rgba(0,0,1,.7), rgba(0,0,1,.4)), url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80);
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: 50% 20%;
+    align-items: center;
+    font-family: Staatliches, monospace;
 }
-
 #intro {
     width: 100%;
     color: rgb(48, 208, 143);
     font-size: 90px;
-    margin-left: 15%;
-    margin-right: 2%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 100px;
 }
-#greeting-buttons {
-    margin-left: 2%;
-    margin-right: 15%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 100%;
+#greet-btns {
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-evenly;
 }
-
-.greeting-btn-style {
+.greeting-btn {
     background-color: rgba(0,0,0,0);
     border-color: rgb(48, 208, 143);
     border-width: 5px;
@@ -95,71 +75,45 @@ nav {
         color: black;
     }
 }
-
 .header-text {
     font-family: Staatliches, monospace;
     font-size: 50px;
-    position: relative;
-    top: -45px;
-    left: 15px;
 }
-
-#about-container {
-    margin-left: -8px;
-    padding-top: 3%;
-    padding-left: 3%;
-    padding-right: 5%;
+#about-title {
+    padding-top: 2%;
+    color: black;
+}
+#about-content {
     padding-bottom: 3%;
-    background-color: #C5C6C7;
-}
-#about-div {
-    background-color: #C5C6C7;
-    background-size: cover;
-    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.about-bg {
+    background-color: #C5C6C7;
 }
 .about-text {
-    position: relative;
-    top: -70px;
-    width: 90%;
+    text-indent: 30px;
     font-size: 24px;
     font-family: Poppins, monospace;
-    margin-left: 4%;
 }
-
-#projects-container {
-    margin-left: -8px;
-    padding-top: 3%;
-    padding-left: 3%;
-    padding-right: 5%;
-    padding-bottom: 3%;
+#project-title {
+    padding-top: 2%;
+    color: black;
+}
+.project-bg {
     background-color: rgb(116, 116, 116);
 }
-#projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    text-align: center;
-}
-
-#contact-container {
-    margin-left: -8px;
-    padding-top: 3%;
-    padding-left: 3%;
-    padding-right: 5%;
-    background-color: rgb(12, 18, 27);
+.project-pad {
+    padding-bottom: 3%;
 }
 #contact-title {
+    padding-top: 2%;
     color: white;
 }
-#contact-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contact-bg {
+    background-color: rgb(12, 18, 27);
 }
 #form-desc {
-    position: relative;
-    top: -80px;
     color: white;
     font-family: Poppins, monospace;
     font-size: 24px;
@@ -169,7 +123,6 @@ nav {
 form {
     position: relative;
     padding: 10px;
-    top: -70px;
     min-width: 40%;
     background-color: #C5C6C7;
     font-family: Poppins, monospace;
@@ -219,26 +172,16 @@ form {
     transform: scale(1.04);
 }
 #email-me {
-    position: relative;
-    top: -10px;
-    margin-bottom: 10px;
+    color: white;
+    font-family: Poppins, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
 }
-
+#last {
+    padding-bottom: 3%;
+}
 #footer {
-    position: relative;
-    width: 100vw;
-    bottom: 0px;
-    left: 0px;
-    padding: 1px;
     background-color: rgb(44, 44, 44);
-}
-#footer-text {
-    text-align: center;
-}
-#footer-link {
-    color: white !important;
-    font-size: 24px;
     font-family: Staatliches, monospace;
-    text-decoration: none;
 }
-*/

@@ -20,21 +20,21 @@
     <div class="row">
         <nav class="navbar fixed-top ">
             <div class="col-md-3 d-flex justify-content-center">
-                <a id="logo" class="nav-link" href="#">Mark Tran</a>
+                <a id="logo" class="nav-link" href="#greeting">Mark Tran</a>
             </div>
             <div class="col-md-6 d-flex justify-content-center">
                 <div class="row">
                     <div class="button-enlarge">
-                        <a class="nav-link" href="#top">Home</a>
+                        <a class="nav-link" href="#greeting">Home</a>
                     </div>
                     <div class="button-enlarge">
-                        <a class="nav-link" href="#about-container">About Me</a>
+                        <a class="nav-link" href="#about-title">About Me</a>
                     </div>
                     <div class="button-enlarge">
-                        <a class="nav-link" href="#projects-container">Projects</a>
+                        <a class="nav-link" href="#project-title">Projects</a>
                     </div>
                     <div class="button-enlarge">
-                        <a class="nav-link" href="#contact-container">Contact</a>
+                        <a class="nav-link" href="#contact-title">Contact</a>
                     </div>
                 </div>
             </div>
@@ -53,63 +53,31 @@
             </div>
         </nav>
     </div>
-<!--<div id="nav-bar" class="row">
-        <div class="col-md-3 d-flex justify-content-center">
-            <p id="logo" class="nav-link">Mark Tran</p>
-        </div>
-
-        <div class="col-md-6 d-flex justify-content-center">
-            <div class="row">
-                <div class="button-enlarge">
-                    <a class="nav-link" href="#top">Home</a>
-                </div>
-                <div class="button-enlarge">
-                    <a class="nav-link" href="#about-container">About Me</a>
-                </div>
-                <div class="button-enlarge">
-                    <a class="nav-link" href="#projects-container">Projects</a>
-                </div>
-                <div class="button-enlarge">
-                    <a class="nav-link" href="#contact-container">Contact</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3 d-flex justify-content-center">
-            <div class="row">
-                <div id="linkedin-div" class="button-enlarge">
-                    <a id="linkedin-icon" class="icon-color" href="https://www.linkedin.com/in/mark-tran-0aa70317b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BT3fJFA8IRj2wODugX567FQ%3D%3D" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-                </div>
-                <div id="github-div" class="button-enlarge">
-                    <a id="github-icon" class="icon-color" href="https://github.com/markmtran" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
-                </div>
-                <div id="mail-div" class="button-enlarge">
-                    <a id="mail-icon" class="icon-color" href="mailto:marktran@stanford.edu.com"><i class="fas fa-envelope-square fa-2x"></i></a>
-                </div>
-            </div>
-        </div>
-    </div> -->
     <!-- Nav End -->   
     <!-- Greeting Start -->   
-    <a id="top"></a>
-    <div class="row">
+    <div id="greeting" class="row">
         <div class="col-md-4 offset-md-2 d-flex justify-content-center">
-            <h1 id="intro" class="header-text">Hi, I'm Mark.<br>Nice to meet you!</h1>
+            <h1 id="intro" class="header-text"><b>Hi, I'm Mark.<br>Nice to meet you!</b></h1>
         </div>
-        <div class="col-md-3 d-flex justify-content-center">
-            <a target=_blank href="#projects-container"><button class="greeting-btn-style greeting-change">Projects</button></a>
-            <a target=_blank href="https://drive.google.com/file/d/1Q5ZxpkASdpfkfJcrx0BdRU31832Yq7xa/view?usp=sharing"><button class="greeting-btn-style greeting-change">Resume</button></a>
+        <div id="greet-btns" class="col-md-5">
+            <a target=_blank href="#project-title"><button class="greeting-btn greeting-change">Projects</button></a>
+            <a target=_blank href="https://drive.google.com/file/d/11todKakGye_z_AYwCTQSHleHvpjF3ThT/view?usp=sharing"><button class="greeting-btn greeting-change">Resume</button></a>
         </div>
     </div>
     <!-- Greeting End -->   
     <!-- About Start -->   
-    <div class="row">
+    <div id="about-title" class="row about-bg">
         <div class="col-md-4 offset-md-1">
-            <h2 id="about-title" class="header-text">About Me</h2>
+            <h2 class="header-text">About Me</h2>
+        </div>
+    </div>
+
+    <div id="about-content" class="row about-bg">
+        <div class="col-md-4">
             <p class="about-text">I am currently a sophomore undergraduate at Stanford University with the intention of majoring in Computer Science and minoring in Economics.
             </p>
         </div>
-        <div class="col-md-4 offset-md-2">
+        <div id="carousel" class="col-md-4">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -149,14 +117,14 @@
     </div>
     <!-- About End -->   
     <!-- Project Start -->   
-    <div class="row">
+    <div id="project-title" class="row project-bg">
         <div class="col-md-4 offset-md-1">
-            <h2 id="projects-title" class="header-text">Projects</h2>
+            <h2 class="header-text">Projects</h2>
         </div>
     </div>
     
 
-    <div class="row">
+    <div class="row project-bg project-pad">
         <div class="col-md-12 d-flex justify-content-center">
             <div class="btn-group">
                 <button type="button" class="btn btn-primary">Featured</button>
@@ -174,7 +142,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row project-bg project-pad">
         <div class="col-md-12 d-flex justify-content-center">
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row no-gutters">
@@ -194,19 +162,20 @@
     </div>
     <!-- Project End -->   
     <!-- Contact Start -->   
-    <div class="row">
+    <div id="contact-title" class="row contact-bg">
         <div class="col-md-4 offset-md-1">
-            <h2 id="projects-title" class="header-text">Contact Me!</h2>
+            <h2 class="header-text">Contact Me!</h2>
         </div>
     </div>
 
-    <div class="row">
+    <div class="row contact-bg">
         <div class="col-md-12 d-flex justify-content-center">
             <p id="form-desc">Check out my LinkedIn and GitHub, or send me a message here!</p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12 d-flex justify-content-center"
+
+    <div id="last" class="row contact-bg">
+        <div class="col-md-12 d-flex justify-content-center">
             <form id="contact-form" action="https://formspree.io/xnqgwnod" method="POST" name="form">
                 <div id="form-entries">
                     <div class="form-struct">
@@ -236,15 +205,13 @@
             </form>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12 d-flex justify-content-center">
-            <i id="email-me">Or, email me at <br><a href="mailto:marktran@stanford.edu">marktran@stanford.edu</a>!</i>
-        </div>
+    <!-- Contact End -->
+
+    <div id="footer" class="row d-flex justify-content-center">
+        <footer>
+            <a class="nav-link button-enlarge" href="#greeting">Back to Top</a>
+        </footer>
     </div>
-    <!-- Contact End -->   
-    <footer id="footer">
-        <p id="footer-text" class="button-enlarge"><a id="footer-link" href="#top">Back to Top</a></p>
-    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
