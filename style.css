@@ -75,7 +75,7 @@ nav {
 }
 .header-text {
     font-family: Staatliches, monospace;
-    font-size: 50px;
+    font-size: 56px;
 }
 #about-title {
     padding-top: 2%;
@@ -121,7 +121,7 @@ nav {
 form {
     position: relative;
     padding: 10px;
-    min-width: 40%;
+    min-width: 550px;
     background-color: #C5C6C7;
     font-family: Poppins, monospace;
     border-radius: 5px;
@@ -137,6 +137,7 @@ form {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+    font-size: 18px;
 }
 .form-box {
     border: 2px solid;
