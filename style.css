@@ -7,7 +7,7 @@ nav {
 }
 .nav-link {
     color: white;
-    font-size: 24px;
+    font-size: 26px;
     text-decoration: none;
 }
 
@@ -27,15 +27,6 @@ nav {
     .button-enlarge:hover {
         transform: scale(1.2);       
     }
-    .navbar-nav.navbar-center {
-        position: absolute;
-        left: 50%;
-        transform: translatex(-50%);
-    }
-
-}
-#nav-right{
-    width: 100%;
 }
 
 #greeting {
