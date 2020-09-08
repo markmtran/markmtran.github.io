@@ -21,8 +21,18 @@ nav {
     color: white;
 }
 .button-enlarge:hover {
-    transform: scale(1.2);
     color: rgb(48, 208, 143);
+}
+@media (min-width: 1000px) {
+    .button-enlarge:hover {
+        transform: scale(1.2);       
+    }
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+
 }
 #nav-right{
     width: 100%;
@@ -94,6 +104,7 @@ nav {
     font-size: 24px;
     font-family: Poppins, monospace;
 }
+
 #project-title {
     padding-top: 2%;
     color: black;
