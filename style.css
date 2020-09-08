@@ -1,7 +1,6 @@
 nav {
     background-color: rgb(44, 44, 44);
     font-family: Staatliches, monospace;
-    height: 60px;
 }
 #logo {
     letter-spacing: 3px;
@@ -11,6 +10,7 @@ nav {
     font-size: 24px;
     text-decoration: none;
 }
+
 #linkedin-div {
     margin-right: 4%;
 }
@@ -181,6 +181,7 @@ form {
     padding-bottom: 3%;
 }
 #footer {
+    overflow: hidden;
     background-color: rgb(44, 44, 44);
     font-family: Staatliches, monospace;
 }
