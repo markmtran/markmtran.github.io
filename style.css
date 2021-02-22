@@ -1,189 +1,191 @@
 nav {
-    background-color: rgb(44, 44, 44);
-    font-family: Staatliches, monospace;
+	background-color: rgb(44, 44, 44);
+	font-family: Staatliches, monospace;
 }
 #logo {
-    letter-spacing: 3px;
+	letter-spacing: 3px;
 }
 .nav-link {
-    color: white;
-    font-size: 26px;
-    text-decoration: none;
+	color: white;
+	font-size: 26px;
+	text-decoration: none;
 }
 
 #linkedin-div {
-    margin-right: 4%;
+	margin-right: 4%;
 }
 #mail-div {
-    margin-left: 4%;
+	margin-left: 4%;
 }
 .icon-color {
-    color: white;
+	color: white;
 }
 .button-enlarge:hover {
-    color: rgb(48, 208, 143);
+	color: rgb(48, 208, 143);
 }
 @media (min-width: 1000px) {
-    .button-enlarge:hover {
-        transform: scale(1.2);       
-    }
+	.button-enlarge:hover {
+		transform: scale(1.2);
+	}
 }
 
 #greeting {
-    height: 100vh;
-    margin-top: 60px;
-    background: linear-gradient(rgba(0,0,1,.7), rgba(0,0,1,.4)), url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: 50% 20%;
-    align-items: center;
-    font-family: Staatliches, monospace;
+	height: 100vh;
+	margin-top: 60px;
+	background: linear-gradient(rgba(0, 0, 1, 0.7), rgba(0, 0, 1, 0.4)),
+		url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 50% 20%;
+	align-items: center;
+	font-family: Staatliches, monospace;
 }
 #intro {
-    width: 100%;
-    color: rgb(48, 208, 143);
-    font-size: 90px;
-    margin-bottom: 100px;
+	width: 100%;
+	color: rgb(48, 208, 143);
+	font-size: 90px;
+	margin-bottom: 100px;
 }
 #greet-btns {
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: space-evenly;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .greeting-btn {
-    background-color: rgba(0,0,0,0);
-    border-color: rgb(48, 208, 143);
-    border-width: 5px;
-    border-radius: 10px;
-    border-style: solid;
-    padding: 8px 15px 8px 15px;
-    font-size: 30px;
-    font-family: Staatliches, monospace;
-    text-align: center;
-    color: rgb(48, 208, 143);
+	background-color: rgba(0, 0, 0, 0);
+	border-color: rgb(48, 208, 143);
+	border-width: 5px;
+	border-radius: 10px;
+	border-style: solid;
+	padding: 8px 15px 8px 15px;
+	font-size: 30px;
+	font-family: Staatliches, monospace;
+	text-align: center;
+	color: rgb(48, 208, 143);
 }
 .greeting-change:hover {
-    animation-name: button-background;
-    animation-duration: 500ms;
-    animation-fill-mode: forwards;
+	animation-name: button-background;
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
 }
 @keyframes button-background {
-    100% {
-        background-color: rgb(48, 208, 143);
-        color: black;
-    }
+	100% {
+		background-color: rgb(48, 208, 143);
+		color: black;
+	}
 }
 .header-text {
-    font-family: Staatliches, monospace;
-    font-size: 56px;
+	font-family: Staatliches, monospace;
+	font-size: 56px;
 }
 #about-title {
-    padding-top: 2%;
-    color: black;
+	padding-top: 2%;
+	color: black;
 }
 #about-content {
-    padding-bottom: 3%;
-    display: flex;
-    justify-content: space-evenly;
+	padding-bottom: 3%;
+	display: flex;
+	justify-content: space-evenly;
 }
 .about-bg {
-    background-color: #C5C6C7;
+	background-color: #c5c6c7;
 }
 .about-text {
-    text-indent: 30px;
-    font-size: 24px;
-    font-family: Poppins, monospace;
+	/*text-indent: 30px;*/
+	font-size: 24px;
+	font-family: Poppins, monospace;
+	text-align: center;
 }
 
 #project-title {
-    padding-top: 2%;
-    color: black;
+	padding-top: 2%;
+	color: black;
 }
 .project-bg {
-    background-color: rgb(116, 116, 116);
+	background-color: rgb(116, 116, 116);
 }
 .project-pad {
-    padding-bottom: 3%;
+	padding-bottom: 3%;
 }
 #contact-title {
-    padding-top: 2%;
-    color: white;
+	padding-top: 2%;
+	color: white;
 }
 .contact-bg {
-    background-color: rgb(12, 18, 27);
+	background-color: rgb(12, 18, 27);
 }
 #form-desc {
-    color: white;
-    font-family: Poppins, monospace;
-    font-size: 24px;
-    font-weight: bold;
-    font-style: italic;
+	color: white;
+	font-family: Poppins, monospace;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: italic;
 }
 form {
-    position: relative;
-    padding: 10px;
-    min-width: 550px;
-    background-color: #C5C6C7;
-    font-family: Poppins, monospace;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+	position: relative;
+	padding: 10px;
+	min-width: 550px;
+	background-color: #c5c6c7;
+	font-family: Poppins, monospace;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
 }
 #form-entries {
-    margin: 3%;
+	margin: 3%;
 }
 .form-struct {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-    font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+	font-size: 18px;
 }
 .form-box {
-    border: 2px solid;
-    border-radius: 3px;
-    font-size: 18px;
-    font-family: Poppins, monospace;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+	border: 2px solid;
+	border-radius: 3px;
+	font-size: 18px;
+	font-family: Poppins, monospace;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
 }
 .message-box {
-    border: 2px solid;
-    border-radius: 3px;
-    font-family: Poppins, monospace;
-    font-size: 18px;
-    padding-bottom: 50px;
-    text-align: center;
-    margin-bottom: 15px;
+	border: 2px solid;
+	border-radius: 3px;
+	font-family: Poppins, monospace;
+	font-size: 18px;
+	padding-bottom: 50px;
+	text-align: center;
+	margin-bottom: 15px;
 }
 #submit-btn {
-    font-size: 18px;
-    font-family: Poppins, monospace;
-    border: 2px solid;
-    border-radius: 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(48, 208, 143);
-    cursor: pointer;
+	font-size: 18px;
+	font-family: Poppins, monospace;
+	border: 2px solid;
+	border-radius: 3px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgb(48, 208, 143);
+	cursor: pointer;
 }
 .submit-enlarge:hover {
-    transform: scale(1.04);
+	transform: scale(1.04);
 }
 #email-me {
-    color: white;
-    font-family: Poppins, monospace;
-    font-size: 16px;
-    font-weight: bold;
-    font-style: italic;
+	color: white;
+	font-family: Poppins, monospace;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
 }
 #last {
-    padding-bottom: 3%;
+	padding-bottom: 3%;
 }
 #footer {
-    overflow: hidden;
-    background-color: rgb(44, 44, 44);
-    font-family: Staatliches, monospace;
+	overflow: hidden;
+	background-color: rgb(44, 44, 44);
+	font-family: Staatliches, monospace;
 }
